@@ -178,7 +178,7 @@ svg { flex-shrink: 0; }
 
 @media (max-width: 559px) {
   .header-inner { padding-block: 12px 10px; min-height: 0; }
-  .site-nav { flex-basis: 100%; gap: 2px; }
+  .site-nav { flex-basis: 100%; flex-wrap: wrap; gap: 2px; }
   .site-nav a { padding: 8px 10px; }
   .site-nav .nav-cta { margin-left: auto; padding-inline: 14px; }
 }
